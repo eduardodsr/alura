@@ -1,7 +1,5 @@
 # ALURA & Oracle Next Education
 
-![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/eduardodsr/)
-
 ### Lógica de programação I 
 Os primeiros programas com Javascript e HTML.
 
