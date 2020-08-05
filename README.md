@@ -1,5 +1,7 @@
 # ALURA & Oracle Next Education
 
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/eduardodsr/alura/)](https://https://github.com/eduardodsr/alura)
+
 ### Lógica de programação I 
 Os primeiros programas com Javascript e HTML.
 
@@ -16,9 +18,7 @@ Pratique com desenhos, animações e um jogo.
 
 ### PERFIL DE EDUARDO DA SILVA RODRIGUES
 
-:bookmark_tabs: ``` link: ```  <https://github.com/eduardodsr/alura>
-
-:page_with_curl: ``` link: ```   https://cursos.alura.com.br/user/eduardodsr
+:bookmark_tabs:  :page_with_curl: ``` link: ```   https://cursos.alura.com.br/user/eduardodsr
 
 ### SITE ALURA
 
