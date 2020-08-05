@@ -1,0 +1,32 @@
+<!-- bandeira-brasil.html -->
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle='green';
+    pincel.fillRect(0, 0, 60, 40);
+
+    pincel.fillStyle='yellow';
+    pincel.beginPath();
+    pincel.moveTo(30, 5);
+    pincel.lineTo(5, 20);
+    pincel.lineTo(55, 20);
+    pincel.fill();
+
+    pincel.beginPath();
+    pincel.moveTo(30, 35);
+    pincel.lineTo(5, 20);
+    pincel.lineTo(55, 20);
+    pincel.fill();
+
+    pincel.fillStyle='darkblue';
+    pincel.beginPath();
+
+    pincel.arc(30, 20, 10, 0, 2*3.14);
+    pincel.fill();
+
+</script>
