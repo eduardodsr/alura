@@ -3,7 +3,7 @@
 ### Lógica de programação I 
 Os primeiros programas com Javascript e HTML.
 
-: link : https://github.com/eduardodsr/alura/tree/master/logica1
+``` link: ```  https://github.com/eduardodsr/alura/tree/master/logica1
 
 ### Lógica de programação II
 Pratique com desenhos, animações e um jogo.
@@ -16,10 +16,10 @@ Pratique com desenhos, animações e um jogo.
 
 ### Links
 
-<https://github.com/eduardodsr/alura>
+``` link: ```  <https://github.com/eduardodsr/alura>
 
 ### PERFIL DE EDUARDO DA SILVA RODRIGUES
 
-https://cursos.alura.com.br/user/eduardodsr
+``` link: ```  https://cursos.alura.com.br/user/eduardodsr
 
 ### End
