@@ -1,0 +1,59 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var contador = 30;
+
+    while(contador <= 40) {
+
+        if( contador == 33 ) {
+        contador = contador + 1;
+        }
+        if(contador == 37) {    
+            contador = contador + 1;
+        }
+        else {
+        mostra(contador);
+        contador = contador + 1; 
+        }
+      }
+
+    mostra("FIM");
+
+</script>
+
+<!-- 
+    
+    Todos os números entre 30 a 40, exceto 33 e 37!
+    PRÓXIMA ATIVIDADE
+
+    Que tal uma dificuldade um pouco maior? Imprima todos os números entre 30 e 40 (inclusive 30 e 40), porém os números 33 e 37 não devem ser impressos! 
+    No final escreva a palavra "FIM". 
+    Use o while para essa tarefa. 
+    DICA: o if pode ajudá-lo!
+
+ -->
+
+ <!-- 
+    Resultado do programa:
+
+    30
+    31
+    32
+    34
+    35
+    36
+    38
+    39
+    40
+    FIM
+
+  -->

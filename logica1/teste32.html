@@ -1,0 +1,50 @@
+<!--  Contudo, o que está escrito no mundo HTML é o texto "O meu IMC é undefined". A Solução segue abaixo:,
+
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+
+        var imc = peso / (altura * altura);
+    }
+
+    var imcCalculado = calculaImc(1.77, 75);
+
+    mostra("O meu IMC é : " + imcCalculado);    //  O meu IMC é : undefined 
+
+</script>
+
+ -->
+
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+
+        var imc = peso / (altura * altura);
+        return imc;
+    }
+
+    var imcCalculado = calculaImc(1.77, 75);
+
+    mostra("O meu IMC é : " + imcCalculado);   //  O meu IMC é : 23.93948099205209 
+
+</script>

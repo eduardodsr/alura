@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var vitorias = parseInt(prompt("Entre com o número de vitórias.")); // 
+
+    var empates = parseInt(prompt("Entre com o número de empates."));
+
+    var pontos = (vitorias  * 3) + empates;
+
+    mostra("Os pontos do seu time são " + pontos);
+
+</script>
+
+<!-- 
+    Importante lembrar que se quiséssemos ler um nome, por exemplo, não seria necessário utilizar a função parseInt(), porque neste caso queremos que isto seja considerado como texto. Sempre que formos ler uma entrada, e a intenção for trabalhar com números, temos que fazer o parseInt() para que o valor digitado, que por padrão é lido como texto, seja interpretado como um número.
+ -->

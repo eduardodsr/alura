@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<input/> <!-- uma entrada -->
+
+<button>Compare com o meu segredo</button> <!-- um botão -->
+
+<script>
+
+    var segredo = Math.round(Math.random() * 10);   // Math.random() * 10  gera um número aleatório de 1 até 10;  Math.round() faz o arrendodamento do numero
+
+    var input = document.querySelector("input");    // document.querySelector() recebe um parâmetro o nome da tag que desejamos buscar do mundo HTML
+        input.focus();  
+        // faremos com que a caixa de texto ganhe foco sempre que recarregarmos a página, com o input.focus() logo após chamarmos o input para o mundo JavaScript:
+
+    function verifica() {
+
+        if(input.value == segredo) {
+
+        alert("Você ACERTOU!");
+        } else {
+
+        alert("Você ERROU!!!!!!!!");
+        }
+
+                input.value = "";
+                input.focus();  // caixa de texto, input (entrada) ganha o focus(foco) sempre que recarregarmos a página,
+
+    }
+
+    var button = document.querySelector("button");
+
+    button.onclick = verifica;
+
+</script>

@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var contador = 2;
+
+    while(contador <= 100) {
+        mostra(contador);
+        contador = contador + 2; // incrementa de dois em dois
+    }
+    mostra("FIM");
+
+</script>
+
+<!-- 
+    Todos os números pares de 1 a 100.
+
+    PRÓXIMA ATIVIDADE
+
+    Preparado(a) para um exercício que fará você quebrar a cabeça um pouquinho? 
+    Usando a instrução while imprima todos os números pares de 1 a 100 e ao final imprima a palavra "FIM". DICA: incremente o contador de dois em dois!
+
+    O contador começa valendo 2 e a cada repetição ele é incrementado com mais dois. Sendo assim, teremos 2, 4, 6, 8... até chegar a 100! 
+    Quando o contador atingir 102 o while se recusará a repetir, assim, a próxima instrução será executada.
+ -->

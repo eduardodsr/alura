@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+    <script> 
+        document.write("<h1>Título principal</h1>") 
+        // O método Document.write() -  é uma função do javascript que escreve no html da página. 
+    </script>
+
+<!-- 
+
+    document.write: é uma função do javascript que escreve no html da página. 
+    
+    Basicamente, ele pega uma página e sobrescreve seu conteúdo. ... 
+    Nesse caso, define o tipo do script que vai ser executado (normalmente é text/javascript, mas não é sempre o caso) 
+        
+    Por exemplo:
+
+    <script> 
+        document.write("<h1> Título principal </h1>") 
+    </script>
+
+/* -->
+
+Qual a diferença entre: console.log, document.write ou script type="" em javascrit?
+
+document.write: é uma função do javascript que escreve no html da página.
+
+document.write : é uma função do javascript que escreve no html da página. 
+Basicamente, ele pega uma página e sobrescreve seu conteúdo. 
+É útil para testes, mas nem tanto para produção, em que geralmente se manipula elementos já existentes (como divs), 
+usando getElementById (ou similares) e alterando o conteúdo via recursos como innerHtml;
+
+console.log : escreve uma mensagem no console da web. 
+Esse console é exibido nas ferramentas de desenvolvedor do navegador (pressionando f12 no Firefox/Chrome). 
+Normalmente, não é visível por usuários comuns, apenas desenvolvedores;
+
+script type="" , define o tipo do script que vai ser executado (normalmente é text/javascript, mas não é sempre o caso). 
+Pode ser omitido pois, em alguns contextos, o navegador define o que usar.
+
+Como os três fazem coisas distintas, a forma ideal de usar é de acordo com a demanda. 
+Por exemplo, se você precisa exibir uma mensagem no console para verificar o valor de uma variável no javascript, sua opção é o console.log. 
+Os demais não servem pra isso.

@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var convidados = parseInt(prompt("Número de convidados")); // 10 convidados
+
+    var vips = parseInt(prompt("Número de convidados VIP's")); // 7 VIPs
+
+    var total = convidados + vips; // total = 10 + 7 ; total = 17
+
+    mostra("O total de convidados é " + total); // O total de convidados é 17
+
+</script>
+
+
+<!-- 
+    Como a função prompt sempre retorna o que digitamos no formato texto, ou seja, como um string, 
+    é uma boa prática sempre convertermos o valor digitado para número quando nossa intenção é ler um número. Vamos analisar esta instrução:
+
+    var convidados = parseInt(prompt("Número de convidados"));
+
+    A função prompt retorna o que digitamos como string e esse retorno é passado para parseInt. 
+    É esta função que recebe uma string e a converte para número. 
+    Agora, como temos dois números ligados, não acontecerá mais a concatenação, mas sim a soma.
+ -->

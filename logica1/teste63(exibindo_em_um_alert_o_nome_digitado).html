@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<input/>
+<button>Exibir texto digitado</button>
+
+<script>
+
+    var input = document.querySelector("input");
+
+    function exibeTexto() {
+
+        alert(input.value);
+    }
+
+    var button = document.querySelector("button");
+    
+    button.onclick = exibeTexto;      
+    
+    // Apresenta um alerta antes (forma errada):  button.onclick = exibeTexto(); Portanto, para funcionar corretamente precisa ficar assim: 
+    // button.onclick = exibeTexto;  
+
+
+</script>
+
+<!-- 
+    Quando a função exibeTexto for chamada, ela passará como parâmetro da função alert o valor input.value. 
+    Não podemos passar simplesmente input, porque o input corresponde a TAG e queremos dessa TAG seu valor (value). Por isso passamos input.value.
+
+ -->

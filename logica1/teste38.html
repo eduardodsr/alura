@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var convidados = prompt("Número de convidados"); // 10 convidados
+    var vips = prompt("Número de convidados VIP's"); // 7 vips
+
+    var total = convidados + vips;
+
+    mostra("O total de convidados é " + total);  // O total de convidados é 107
+    
+    // Exatamente como o retorno da função prompt() é sempre string ao utilizar o operador + é aplicado uma concatenação ("10" + "7") = "107". 
+    
+    // O total de convidados é "107".
+
+</script>
+
+<!-- 
+    Veja que ela usou a função prompt() para ler a quantidade de convidados e vips. Se ela entrar com 10 convidados e 7 vips, qual será o resultado exibido na tela?
+
+    O resultado é ?   O total de convidados é 107
+ -->

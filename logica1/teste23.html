@@ -1,0 +1,32 @@
+
+<!--  
+    Qual das opções abaixo cria corretamente a função exibeAlerta, que recebe como parâmetro o texto que queremos exibir no alerta, e que realiza a concatenação com os três asteriscos?
+    
+<meta charset="UTF-8">
+<script>
+    var idade1 = 10;
+    var idade2 = 20;
+    var idade3 = 30;
+    var totalIdades = idade1 + idade2 + idade3;
+    var mediaIdades = totalIdades/3;
+    alert("***Total de idades é " + totalIdades + "***");
+    alert("***A média das idades é " +  mediaIdades + "***");
+</script>
+-->
+
+
+<meta charset="UTF-8">
+<script>
+    function exibeAlerta(mensagem) {
+        alert("***" + mensagem + "***");
+    }
+
+    var idade1 = 10;
+    var idade2 = 20;
+    var idade3 = 30;
+    var totalIdades = idade1 + idade2 + idade3;
+    var mediaIdades = totalIdades/3;
+
+    exibeAlerta("Total de idades é " + totalIdades);
+    exibeAlerta("A média das idades é " +  mediaIdades);
+</script>

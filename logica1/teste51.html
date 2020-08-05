@@ -1,0 +1,59 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var anoCopa = 1930;
+    var limite = parseInt(prompt("Qual é o ano limite?"));
+
+    while(anoCopa <= limite) {
+
+        
+        mostra(anoCopa + " tem copa!");
+        anoCopa = anoCopa + 4;                //  a instrução (anoCopa = anoCopa + 4) precisa estar para dentro do while
+    }
+   
+    // anoCopa = anoCopa + 4;  // está ERRADO!!! 
+    // o while nunca terá a chance de incrementar a variável e se não for incrementada, o programa ficará em um loop infinito.
+
+    mostra("Ufa! Esses foram os anos de copa até " + limite);
+
+</script>
+
+<!-- 
+    <meta charset="UTF-8">
+
+    <script>
+
+        // oculta as funções
+
+        var anoCopa = 1930;
+        var limite = parseInt(prompt("Qual é o ano limite?"));
+
+        while(anoCopa <= limite) {
+
+            mostra(anoCopa + " tem copa!");
+        }
+
+        anoCopa = anoCopa + 4;
+
+        mostra("Ufa! Esses foram os anos de copa até " + limite);
+
+    </script>
+
+    Opinião do instrutor:
+
+    Note que o incremento da variável anoCopa não é realizado dentro do while, mas fora dele. 
+    Isso não está correto, pois o while nunca terá a chance de incrementar a variável e se não for incrementada, o programa ficará em um loop infinito.
+
+    Para solucionar, basta mover a instrução anoCopa = anoCopa + 4 para dentro do while, depois de chamada a função mostra:
+ -->

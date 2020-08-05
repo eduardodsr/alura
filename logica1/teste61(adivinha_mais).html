@@ -1,0 +1,59 @@
+<meta charset="UTF-8">
+
+<input/>  <!-- entrada -->
+<!-- 
+    HTML, quando utilizamos o <input/>, fazendo com que seja aberto um campo para entrada de texto no navegador.
+    A palavra "input" vem do inglês, e sua tradução é "entrada".
+ -->
+
+<button>Compare com o meu segredo</button> <!-- um botão -->
+
+<!-- 
+    HTML, criaremos um botão, e a palavra em inglês para isso é "button"
+ -->
+
+<script>
+
+    var segredo = 5;
+
+    var input = document.querySelector("input");
+    // querySelector() para inserir aquilo que está no mundo HTML na variável input. Ele recebe como parametro o nome da tag "input"
+
+    // o teste somente pode ser feito após clicar no botão, por isso, foi criado a função verifica
+    function verifica() {
+
+        // se o valor da entrada é igual a segredo
+        if(input.value == segredo) {
+
+        alert("Você ACERTOU!");
+        } else {
+
+        alert("Você ERROU!!!!!!!!");
+        }
+    }
+
+    var button = document.querySelector("button");
+
+    button.onclick = verifica;
+
+    /* 
+        Para associar ao botão a execução do verifica, utilizaremos o button.onclick(), em português, "on click" significa "no clicar".
+        Dessa forma, toda a informação contida em verifica, isto é, o código, está vinculado ao onclick do botão. 
+        Assim, ele estará preparado para executar a verificação sempre que o botão for clicado.
+     */
+
+</script>
+
+<!-- 
+    Utilizaremos a document.querySelector() para inserir aquilo que está no mundo HTML na variável input.
+ -->
+
+ <!-- 
+     Recapitulando:
+
+    No HTML temos um campo de input, utilizado para receber textos;
+
+    Há também um botão; (um campo de button, utilizado para criar um botão;)
+
+    Nosso objetivo é, ao carregarmos a página, digitarmos um número em nosso campo, clicarmos no botão, e somente então, que o programa compare o número inserido ao segredo.
+  -->

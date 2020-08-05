@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+    var resposta = ""; // ainda não tem a resposta
+
+    while(true) {
+
+        resposta = prompt("Qual é seu nome?");
+
+        if( resposta == "SAIR") {
+
+            break;
+        }
+    }
+
+    mostra("FIM");
+
+</script>
+
+<!-- 
+    O programa que não para de perguntar.
+    Enquanto a resposta não for SAIR será perguntado qual o seu nome.
+ -->

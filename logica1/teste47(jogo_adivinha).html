@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function sorteia() {
+
+        return Math.round(Math.random() * 100);
+    }   
+
+    var numeroPensado = sorteia();
+
+    var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+    if(chute == numeroPensado) {
+
+        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+
+    } else {
+
+        var contador = 1;
+
+        while( contador <= 10 ) {
+
+            mostra("Já era, você errou!");
+            contador = contador + 1;
+        }
+
+    }
+
+</script>
+
+<!-- 
+    Lembre-se que while repetirá TODAS as instruções que estiverem dentro do seu bloco e a condição passada para ele for true. 
+    Veja que while recebe em seus parênteses () a expressão contador <= 10.
+
+    Aprendemos que expressões como essa retornam true ou false. Sendo assim, quando no navegador interpretar a linha do while perguntará: o valor da variável contador é menor que ou igual a 10? Como a variável contador recebeu o valor 1 em sua inicialização o resultado da expressão contador <= 10 será true. Sendo assim, o while terá autorização para executar a instrução dentro do seu bloco, no caso, a instrução mostra("Você errou"); e a instrução contador = contador + 1.
+
+    Faz sentido ele executar mostra("Já era, você errou!");, claro, mas você lembra a razão de fazermos contador = contador + 1? Veja que essa variável só existe por causa de uma finalidade: é ela que quebrará o lanço de repetição do while. A cada repetição do mostra, precisamos incrementá-la para saber que já mostramos, uma, duas, três vezes e por ai vai. Se não tivermos a instrução contador = contador + 1 nunca a condição passada para o while dará false e cairemos em uma repetição infinita, o famoso loop infinito.
+ -->
