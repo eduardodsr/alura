@@ -18,7 +18,7 @@ Pratique com desenhos, animações e um jogo.
 
 ``` link: ```  <https://github.com/eduardodsr/alura>
 
-``` link: ```  https://cursos.alura.com.br/user/eduardodsr
+:page_with_curl: ``` link: ```   https://cursos.alura.com.br/user/eduardodsr
 
 ### SITE ALURA
 
