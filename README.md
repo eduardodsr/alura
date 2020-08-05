@@ -14,11 +14,9 @@ Pratique com desenhos, animações e um jogo.
 
 ``` link: ```  https://www.alura.com.br/
 
-### Links
+### PERFIL DE EDUARDO DA SILVA RODRIGUES
 
 ``` link: ```  <https://github.com/eduardodsr/alura>
-
-### PERFIL DE EDUARDO DA SILVA RODRIGUES
 
 ``` link: ```  https://cursos.alura.com.br/user/eduardodsr
 
