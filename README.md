@@ -14,11 +14,11 @@ Pratique com desenhos, animações e um jogo.
 
 ``` link: ```  https://www.alura.com.br/
 
-### PERFIL DE EDUARDO DA SILVA RODRIGUES
+### Certificados dos Cursos ALURA - Meu Perfil:
 
 :bookmark_tabs:  :page_with_curl: ``` link: ```   https://cursos.alura.com.br/user/eduardodsr
 
-### SITE ALURA
+### Site ALURA:
 
 ![](https://github.com/eduardodsr/alura/blob/master/alura.png)
 
