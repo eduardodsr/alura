@@ -8,11 +8,11 @@ Os primeiros programas com Javascript e HTML.
 ### Lógica de programação II
 Pratique com desenhos, animações e um jogo.
 
-: link : https://github.com/eduardodsr/alura/tree/master/logica2
+``` link: ```  https://github.com/eduardodsr/alura/tree/master/logica2
 
 ### Informações sobre o curso:
 
-https://www.alura.com.br/
+``` link: ```  https://www.alura.com.br/
 
 ### Links
 
