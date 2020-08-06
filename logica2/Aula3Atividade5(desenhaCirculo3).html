@@ -1,0 +1,47 @@
+<!-- 
+  05 - Era uma vez uma bolinha que virou um bolão!  
+  Quando clicarmos na tela pressionando a tecla SHIFT, vamos desenhar uma bolinha acrescida de 20 ao seu raio. 
+  Se soltarmos a tecla e clicarmos, ela voltará com seu raio que hoje é 10. 
+ -->
+
+ <canvas width="600" height="400"></canvas>
+
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'grey';
+    pincel.fillRect(0, 0, 600, 400);
+
+    function desenhaCirculo(evento) {
+
+        var x = evento.pageX - tela.offsetLeft;
+        var y = evento.pageY - tela.offsetTop;
+
+        var raio = 10;
+
+        console.log(x + ',' + y);
+
+        // Quando clicarmos na tela pressionando a tecla SHIFT, vamos desenhar uma bolinha acrescida de 20 ao seu raio. 
+        if (evento.shiftKey) {
+
+           raio = raio + 20; // raio agora passa a valer 30!
+        }
+
+        pincel.fillStyle = 'blue';
+        pincel.beginPath();
+        pincel.arc(x, y, raio, 0, 2 * 3.14);
+        pincel.fill();
+
+    }
+    alert("Quando clicarmos na tela pressionando a tecla SHIFT, vamos desenhar uma bolinha acrescida de 20 ao seu raio. ")
+    tela.onclick = desenhaCirculo;
+
+</script>
+
+<!-- 
+    A cada clique do botão a função desenhaCirculo será executada e a variável será declarada novamente recebendo 10. 
+    Se o tamanho do raio base, que é 10, mudar, só precisamos alterar na variável raio.
+ -->
+
+ 

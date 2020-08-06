@@ -1,0 +1,32 @@
+<!-- 
+ Função exibeAlterta()
+A função é chamada quando o usuário clicar na área da tela selecionada no canvas. (canvas width="600"  height="400">)
+Utilizaremos a propriedade onclick, tudo que atribuirmos a ela - se for uma função - esta será chamada pelo clique. 
+Assim, conectaremos o exibeAlerta ao onClick:
+ -->
+
+<canvas width="600"  height="400"></canvas>
+
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'grey';
+    pincel.fillRect(0, 0, 600, 400);
+
+    function exibeAlerta(evento) {
+       alert('Cliquei na tela do canvas!');
+       console.log(evento); // abrir o Console do Browser para verificar o evento que será retornado pela função.
+       // MouseEvent
+    }
+
+    tela.onclick = exibeAlerta; 
+    
+    /*        
+    Se chamarmos o exibeAlerta, temos que passar um parâmetro, mas não temos como saber de antemão qual ponto da
+    tela será clicado. Assim, quem chama essa função é, exclusivamente, o navegador, ele quem tem o parâmetro que trará
+    para nós as coordenadas da posição do cursor no momento do clique
+
+    */
+
+</script>

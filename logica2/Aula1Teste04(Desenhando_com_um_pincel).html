@@ -1,0 +1,15 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector("canvas");
+
+    var pincel = tela.getContext('2d');
+    /* No mundo da programação podemos ter gráficos em 2D, 3D, 4D, enfim, portanto, precisamos informar à tela qual o tipo de pincel, ou seja, o contexto no qual escreveremos na tela. Para isso, utilizaremos o getContext() e passaremos o 2d como parâmetro */
+
+    pincel.fillStyle = 'lightgrey';
+    
+    pincel.fillRect(0, 0, 800, 600);
+    /* Preencher em Inglês é "fill", enquanto "rect" é a abreviação de retângulo */
+
+</script>
