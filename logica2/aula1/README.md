@@ -1,5 +1,5 @@
 
-Desenhando gráficos com Canvas Ver primeiro vídeo
+Desenhando gráficos com Canvas:
 
 - Visão geral do que veremos
 - O canvas será nossa tela!
