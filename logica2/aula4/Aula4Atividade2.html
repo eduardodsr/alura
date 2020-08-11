@@ -1,0 +1,32 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400);
+
+    // A minha função recebe 3 parametros, desenhaCirculo(x, y, raio)
+
+    function desenhaCirculo(x, y, raio) {
+
+        pincel.fillStyle = 'blue';  // Para molhar o pincel na tinha, na cor 'Azul'.
+        pincel.beginPath(); // Para começar a desenhar.
+        pincel.arc(x, y, raio, 0, 2 * Math.PI); // arc() - Para desenhar o meu circulo. Receberá as coordenadas (x, y , raio).
+        pincel.fill(); // Para preenchermos o círculo.                  
+    }
+    function limpaTela() {
+
+        pincel.clearRect(0, 0, 600, 400);
+
+    }
+    /* Vimos que o for é uma solução ruim, porque fará com que o processo de animação ocorra rápido demais para que sejamos capazes de perceber. */
+    
+    var x = 20; // posição x na função desenhaCirculo()
+
+    limpaTela();
+    desenhaCirculo(x, 20, 10);   // Estou passando 3 parametros na funcao desenhaCirculo (x, y, raio)    
+
+</script>
+  

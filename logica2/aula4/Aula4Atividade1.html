@@ -1,0 +1,31 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400);
+
+    // A minha função recebe 3 parametros, desenhaCirculo(x, y, raio)
+
+    function desenhaCirculo(x, y, raio) {
+
+        pincel.fillStyle = 'blue';  // Para molhar o pincel na tinha, na cor 'Azul'.
+        pincel.beginPath(); // Para começar a desenhar.
+        pincel.arc(x, y, raio, 0, 2 * Math.PI); // arc() - Para desenhar o meu circulo. Receberá as coordenadas (x, y , raio).
+        pincel.fill(); // Para preenchermos o círculo.
+        
+        /* arc - pincel.arc() receberá o ponto onde queremos plotar a esfera no <canvas> */
+        /* Math.PI = 3,14 é o PI da Matemática utilizado no calculo do raio */        
+
+    }
+    
+    desenhaCirculo(20, 20, 10); // as proximas atividades vamos apresender a movimentar a bolinha no canvas
+    
+    desenhaCirculo(80, 80, 20); 
+    // Estou passando 3 parametros na funcao desenhaCirculo (x, y, raio)   
+ 
+</script>
+
+  
