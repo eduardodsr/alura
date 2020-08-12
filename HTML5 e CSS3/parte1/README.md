@@ -41,16 +41,16 @@
 - Consolidando o seu conhecimento [✔️]
 - O que aprendemos? [✔️]
 
-### 4. Estilizando imagens
+### 4. Estilizando imagens [✔️]
 
-- Projeto da aula anterior
-- Identificador de elemento e tag de imagem
-- Adicionando uma imagem
-- CSS para imagens
-- Alterando a largura de um elemento
-- Extra: Time de Front-End
-- Consolidando o seu conhecimento
-- O que aprendemos?
+- Projeto da aula anterior [✔️]
+- Identificador de elemento e tag de imagem [✔️]
+- Adicionando uma imagem [✔️]
+- CSS para imagens [✔️]
+- Alterando a largura de um elemento [✔️]
+- Extra: Time de Front-End [✔️]
+- Consolidando o seu conhecimento [✔️]
+- O que aprendemos? [✔️]
 
 ### 5. Listas e divisões de conteúdo
 
