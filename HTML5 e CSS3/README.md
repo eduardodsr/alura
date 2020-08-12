@@ -1,5 +1,5 @@
 
-# Curso de HTML5 e CSS3 parte 1: A primeira página da Web
+# Curso de HTML5 e CSS3
 
 ## Objetivos:
 
@@ -12,7 +12,6 @@
 ## Parte 1:
 
 : link : <https://github.com/eduardodsr/alura/tree/master/HTML5%20e%20CSS3/parte1>
-
 
 
 ## Parte 2:
