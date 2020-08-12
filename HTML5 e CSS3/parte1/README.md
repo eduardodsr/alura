@@ -1,6 +1,6 @@
 # HTML5 e CSS3 - Parte 1
 
-## Checklist
+## Checklist = [ ✔️ ] Atividade Conclúida
 
 ### 1. Marcação do primeiro texto ✔️
 
