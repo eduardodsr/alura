@@ -2,7 +2,7 @@
 
 ## Checklist = [ ✔️ ] Atividade Conclúida
 
-### 1. Marcação do primeiro texto ✔️
+### 1. Marcação do primeiro texto [✔️]
 
 - Introdução ✔️
 - Download do texto base ✔️
