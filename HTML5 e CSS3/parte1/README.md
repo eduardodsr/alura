@@ -2,7 +2,7 @@
 
 ## Checklist
 
-### 1. Marcação do primeiro texto Ver primeiro vídeo ✔️
+### 1. Marcação do primeiro texto ✔️
 
 - Introdução ✔️
 - Download do texto base ✔️
