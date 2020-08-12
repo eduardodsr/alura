@@ -14,30 +14,30 @@
 - O que aprendemos? ✔️
 - Separando o conteúdo e informações ✔️
 
-### 2. Projeto da aula anterior
+### 2. Projeto da aula anterior ✔️
 
-- Estrutura básica
-- Estrutura do HTML
-- Passando dados para o navegador
-- Lidando com a acentuação
-- Separando conteúdo e informações
-- Estrutura de conteúdo
-- Consolidando o seu conhecimento
-- O que aprendemos?
-- Trabalhando com CSS
+- Estrutura básica ✔️
+- Estrutura do HTML ✔️
+- Passando dados para o navegador ✔️
+- Lidando com a acentuação ✔️
+- Separando conteúdo e informações ✔️
+- Estrutura de conteúdo ✔️
+- Consolidando o seu conhecimento ✔️
+- O que aprendemos? ✔️
+- Trabalhando com CSS ✔️
 
-### 3. Projeto da aula anterior
+### 3. Projeto da aula anterior ✔️
 
-- Começando com CSS
-- Propriedade e o seu valor no CSS
-- Organizando o estilo
-- Mesmo CSS em várias páginas
-- Mudando a cor
-- Estilo em cascata
-- Extra: Cores hexadecimais
-- Representando cores no CSS
-- Consolidando o seu conhecimento
-- O que aprendemos?
+- Começando com CSS ✔️
+- Propriedade e o seu valor no CSS ✔️
+- Organizando o estilo ✔️
+- Mesmo CSS em várias páginas ✔️
+- Mudando a cor ✔️
+- Estilo em cascata ✔️
+- Extra: Cores hexadecimais ✔️
+- Representando cores no CSS ✔️
+- Consolidando o seu conhecimento ✔️
+- O que aprendemos? ✔️
 
 ### 4. Estilizando imagens
 
