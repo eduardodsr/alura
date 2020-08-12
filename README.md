@@ -14,6 +14,8 @@ Pratique com desenhos, animações e um jogo.
 
 ``` link: ```  https://www.alura.com.br/
 
+``` link: ```  https://www.alura.com.br/oracle-next-education
+
 ### Certificados dos Cursos ALURA - Meu Perfil:
 
 :bookmark_tabs:  :page_with_curl: ``` link: ```   https://cursos.alura.com.br/user/eduardodsr
