@@ -64,28 +64,28 @@
 
 ### 4. Estilizando imagens
 
-Projeto da aula anterior
-Identificador de elemento e tag de imagem
-Adicionando uma imagem
-CSS para imagens
-Alterando a largura de um elemento
-Extra: Time de Front-End
-Consolidando o seu conhecimento
-O que aprendemos?
+4.1 - Projeto da aula anterior
+4.1 - Identificador de elemento e tag de imagem
+4.1 - Adicionando uma imagem
+4.1 - CSS para imagens
+4.1 - Alterando a largura de um elemento
+4.1 - Extra: Time de Front-End
+4.1 - Consolidando o seu conhecimento
+4.1 - O que aprendemos?
 
-Listas e divisões de conteúdo
+### 5. Listas e divisões de conteúdo
 
-Projeto da aula anterior
-Trabalhando com listas
-Estrutura de uma lista em HTML
-Divisões de conteúdo
-Criando blocos de conteúdo
-Inline e Block
-Quando usar a propriedade class
-Consolidando o seu conhecimento
-O que aprendemos?
+- Projeto da aula anterior
+- Trabalhando com listas
+- Estrutura de uma lista em HTML
+- Divisões de conteúdo
+- Criando blocos de conteúdo
+- Inline e Block
+- Quando usar a propriedade class
+- Consolidando o seu conhecimento
+- O que aprendemos?
 
-Finalizando a página
+### 6. Finalizando a página
 
 Projeto da aula anterior
 Cabeçalho
