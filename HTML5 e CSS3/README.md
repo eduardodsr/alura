@@ -8,3 +8,7 @@
 - Utilize o navegador para inspecionar elementos
 - Aprenda a definir estilos para elementos usando o CSS
 - Desenvolva um página Web
+
+## Parte 1:
+
+: link : <https://github.com/eduardodsr/alura/tree/master/HTML5%20e%20CSS3/parte1>
