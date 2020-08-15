@@ -18,8 +18,12 @@ Desvendando os segredos da Web
 ### Java
 Aprenda a linguagem Java
 
+``` link: ```  https://github.com/eduardodsr/alura/blob/master/Java/README.md
+
 ### Empreendedorismo
 Seja um profissional completo
+
+``` link: ```  https://github.com/eduardodsr/alura/blob/master/Empreendedorismo/README.md
 
 
 ### Informações sobre o curso:
