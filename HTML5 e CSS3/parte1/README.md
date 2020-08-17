@@ -52,24 +52,24 @@
 - Consolidando o seu conhecimento [✔️]
 - O que aprendemos? [✔️]
 
-### 5. Listas e divisões de conteúdo
+### 5. Listas e divisões de conteúdo [✔️]
 
-- Projeto da aula anterior
-- Trabalhando com listas
-- Estrutura de uma lista em HTML
-- Divisões de conteúdo
-- Criando blocos de conteúdo
-- Inline e Block
-- Quando usar a propriedade class
-- Consolidando o seu conhecimento
-- O que aprendemos?
+- Projeto da aula anterior [✔️]
+- Trabalhando com listas [✔️]
+- Estrutura de uma lista em HTML [✔️]
+- Divisões de conteúdo [✔️]
+- Criando blocos de conteúdo [✔️]
+- Inline e Block [✔️]
+- Quando usar a propriedade class [✔️]
+- Consolidando o seu conhecimento [✔️]
+- O que aprendemos? [✔️]
 
-### 6. Finalizando a página
+### 6. Finalizando a página [✔️]
 
-- Projeto da aula anterior
-- Cabeçalho
-- Tag de cabeçalho
-- Consolidando o seu conhecimento
-- Projeto do curso
-- O que aprendemos?
-- Conclusão
+- Projeto da aula anterior [✔️]
+- Cabeçalho [✔️]
+- Tag de cabeçalho [✔️]
+- Consolidando o seu conhecimento [✔️]
+- Projeto do curso [✔️]
+- O que aprendemos? [✔️]
+- Conclusão [✔️]
