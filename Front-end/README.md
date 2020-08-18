@@ -1,6 +1,6 @@
 # Projeto de Front-End
 
-### Time de Front-End
+### TIME DE FRONT-END
 
 É importante destacar que um time de front end, ou seja, um time para fazer uma interface não é composto só pelo desenvolvedor front end.
 
